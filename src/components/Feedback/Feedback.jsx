@@ -47,7 +47,7 @@ class Feedback extends React.Component {
                     bad={bad}
                     totalValue={this.totalValue()}
                     positiveFeedbackValue={this.positiveFeedbackValue()}
-                    />) : (<p>"No feedback yet</p>)
+                    />) : (<p>"No feedback yet"</p>)
                 }
             </Section>
         </> 
