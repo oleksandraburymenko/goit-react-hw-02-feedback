@@ -1,10 +1,10 @@
-import Feedback from './Feedback/Feedback'
-import css from './Feedback/Feedback.module.css'
+import Feedback from './Feedback/Feedback';
+import css from './Feedback/Feedback.module.css';
 
 
 export const App = () => {
   return (
-    <div className={CSS.container}>
+    <div className={css.container}>
       <Feedback />
     </div>
   );
